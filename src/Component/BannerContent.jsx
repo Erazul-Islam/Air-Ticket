@@ -14,12 +14,19 @@ const BannerContent = () => {
                             <button className="bg-gray-300 w-24 h-7 rounded-md">
                                 <p className="flex gap-2 justify-center">
                                     <p className="mt-1">
-                                    <FaRegCircle />
+                                        <FaRegCircle />
                                     </p>
                                     <p className="">One way</p>
                                 </p>
                             </button>
-                            <button className="bg-gray-300 w-24 h-7 rounded-md"></button>
+                            <button className="bg-gray-300 w-24 h-7 rounded-md">
+                                <p className="flex gap-1 justify-center">
+                                    <p className="mt-1">
+                                        <FaRegCircle />
+                                    </p>
+                                    <p className="">Rounded</p>
+                                </p>
+                            </button>
                         </div>
                         <div className="flex gap-4">
                             <button className="bg-gray-300 w-24 h-7 rounded-md">

@@ -1,5 +1,7 @@
 import Banner from "../Component/Banner";
+import Card from "../Component/Card";
 import Navbar from "../Component/Navbar";
+import Offer from "../Component/Offer";
 
 const Home = () => {
     return (
@@ -12,7 +14,8 @@ const Home = () => {
                     <Banner></Banner>
                 </div>
             </div>
-            
+            <Card></Card>
+            <Offer></Offer>
         </div>
     );
 };
