@@ -33,7 +33,7 @@ const Footer = () => {
                 <aside className="items-center grid-flow-col">
                     <img src="https://i.ibb.co/d0z1QrQ/LOGO-white.png" alt="" />
                 </aside>
-                <aside className="pl-28 pt-3">
+                <aside className="lg:pl-28 pt-3">
                     <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
                 </aside>
                 <nav className="md:place-self-center md:justify-self-end">
