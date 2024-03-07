@@ -8,8 +8,8 @@ const BannerContent = () => {
         <div>
             <div className="">
                 <p className="text-3xl font-semibold">Welcome To <span className="text-blue-600">AirBook</span> </p>
-                <div className="w-[1280px] rounded-lg bg-gray-600 h-56">
-                    <div className="flex justify-between pt-10 pl-14 pr-14">
+                <div className="lg:w-[1280px] md:w-[640px] w-[320px] rounded-lg bg-white mt-3 h-56">
+                    <div className="flex justify-between pt-10 lg:pl-14 pr-14">
                         <div className="flex gap-4">
                             <button className="bg-gray-300 w-24 h-7 rounded-md">
                                 <p className="flex gap-2 justify-center">
@@ -19,7 +19,7 @@ const BannerContent = () => {
                                     <p className="">One way</p>
                                 </p>
                             </button>
-                            <button className="bg-gray-300 w-24 h-7 rounded-md">
+                            <button className="bg-blue-600 w-24 h-7 rounded-md">
                                 <p className="flex gap-1 justify-center">
                                     <p className="mt-1">
                                         <FaRegCircle />
@@ -37,7 +37,7 @@ const BannerContent = () => {
                                     <p className="">Traveller</p>
                                 </p>
                             </button>
-                            <button className="bg-gray-300 w-24 h-7 rounded-md">
+                            <button className="bg-gray-300 overflow-hidden md:overflow-visible w-24 h-7 rounded-md">
                                 <p className="flex gap-2 justify-center">
                                     <p className="mt-1">
                                         <IoIosArrowDown />
@@ -47,7 +47,7 @@ const BannerContent = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="mt-5 ml-14 flex gap-4">
+                    <div className="mt-5 lg:ml-14 flex gap-4">
                         <div className="flex gap-1 border-2 w-64 h-14 rounded-lg border-gray-500">
                             <p className="mt-3">DAC</p>
                             <p className="border-l-pink-600"></p>
@@ -64,7 +64,7 @@ const BannerContent = () => {
                                 <p>Coxs Bazar International</p>
                             </p>
                         </div>
-                        <div className="flex gap-1 border-2 w-64 h-14 rounded-lg border-gray-500">
+                        <div className="flex overflow-hidden md:overflow-visible gap-1 border-2 w-64 h-14 rounded-lg border-gray-500">
                             <p className="mt-3">03</p>
                             <p className="border-l-pink-600"></p>
                             <p>
@@ -72,7 +72,7 @@ const BannerContent = () => {
                                 <p>Tuesday 2023</p>
                             </p>
                         </div>
-                        <div className="flex gap-1 border-2 w-64 h-14 rounded-lg border-gray-500">
+                        <div className="flex gap-1 overflow-hidden md:overflow-visible border-2 w-64 h-14 rounded-lg border-gray-500">
                             <p className="mt-3">05</p>
                             <p className="border-l-pink-600"></p>
                             <p>
@@ -80,7 +80,7 @@ const BannerContent = () => {
                                 <p>Tuesday 2023</p>
                             </p>
                         </div>
-                        <div className="bg-yellow-500 w-20 rounded-lg h-14">
+                        <div className="bg-yellow-500 overflow-hidden md:overflow-visible w-20 rounded-lg h-14">
                             <p className="text-white font-extrabold pl-6 pt-3 text-3xl"><IoSearchOutline /></p>
                         </div>
                     </div>

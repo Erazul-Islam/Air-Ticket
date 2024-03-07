@@ -1,4 +1,6 @@
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Travel = () => {
     return (
@@ -6,7 +8,10 @@ const Travel = () => {
             <p className="text-3xl font-bold text-black">Travel Blog</p>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure><img className="w-full" src="https://i.ibb.co/p3F0LmD/Rectangle-18-1.png" alt="Shoes" /></figure>
+                    <div className="relative">
+                        <figure><img className="w-full" src="https://i.ibb.co/p3F0LmD/Rectangle-18-1.png" alt="Shoes" /></figure>
+                        <p className="w-8 absolute bottom-20 bg-yellow-500 rounded-full h-8 pl-2 pt-2"><MdOutlineKeyboardArrowLeft /></p>
+                    </div>
                     <div className="card-body">
                         <p className="flex">
                             <p className="text-yellow-400">Work and Travel</p>
@@ -30,8 +35,8 @@ const Travel = () => {
                     <figure><img className="w-full" src="https://i.ibb.co/cDWhBLb/Rectangle-18-1.png" alt="Shoes" /></figure>
                     <div className="card-body">
                         <p className="flex">
-                            <p className="text-yellow-400">Work and Travel</p>
-                            <p>16 september 2023</p>
+                            <p className="text-yellow-400">Historical</p>
+                            <p>14 september 2023</p>
                         </p>
                         <p className="font-semibold text-xl text-black mt-4">Embracing The Digital Nomad Lifestyle The Digital Nomad Thr...</p>
                         <div className="divider"></div>
@@ -48,11 +53,14 @@ const Travel = () => {
                     </div>
                 </div>
                 <div className="card w-96 bg-base-100 shadow-xl">
-                    <figure><img className="w-full" src="https://i.ibb.co/z2HSdbQ/Rectangle-18-2.png" alt="Shoes" /></figure>
+                    <div className="relative">
+                        <figure><img className="w-full" src="https://i.ibb.co/z2HSdbQ/Rectangle-18-2.png" alt="Shoes" /></figure>
+                        <p className="w-8 absolute left-[350px] bottom-20 bg-yellow-500 rounded-full h-8 pl-2 pt-2"><MdKeyboardArrowRight /></p>
+                    </div>
                     <div className="card-body">
                         <p className="flex">
-                            <p className="text-yellow-400">Work and Travel</p>
-                            <p>16 september 2023</p>
+                            <p className="text-yellow-400">Sustainable Tourism</p>
+                            <p>10 september 2023</p>
                         </p>
                         <p className="font-semibold text-xl text-black mt-4">Embracing The Digital Nomad Lifestyle The Digital Nomad Thr...</p>
                         <div className="divider"></div>

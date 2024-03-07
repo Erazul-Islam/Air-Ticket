@@ -8,7 +8,7 @@ const Card = () => {
                     <div className="card-body">
                         <p className="font-semibold text-2xl">Stopover Opportunity in Istanbul with Turkish Airlines</p>
                         <div className="card-actions justify-center">
-                            <button className="w-48 h-10 rounded-lg bg-orange-400">View More</button>
+                            <button className="w-72 h-11 rounded-lg bg-orange-500">View More</button>
                         </div>
                     </div>
                 </div>
@@ -17,7 +17,7 @@ const Card = () => {
                     <div className="card-body">
                         <p className="font-semibold text-2xl">Discover the timeliness City With touristanbul Turkish Airlines</p>
                         <div className="card-actions justify-center">
-                            <button className="w-48 h-10 rounded-lg bg-orange-400">View More</button>
+                            <button className="w-72 h-11 rounded-lg bg-orange-500">View More</button>
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const Card = () => {
                     <div className="card-body">
                         <p className="font-semibold text-2xl">The best Abu Dhabi with Exclusive Etihad Airways</p>
                         <div className="card-actions justify-center">
-                            <button className="w-48 h-10 rounded-lg bg-orange-400">View More</button>
+                            <button className="w-72 h-11 rounded-lg bg-orange-500">View More</button>
                         </div>
                     </div>
                 </div>

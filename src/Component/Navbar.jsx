@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div>
+        <div className="">
             <div className="navbar bg-white">
                 <div className="navbar-start">
                     <div className="dropdown">
