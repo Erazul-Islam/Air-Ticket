@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/fpwkxD6/Singapore-Airlines.png",
+        "title": "Singapore-Airlines",
+        "rating": 4.5,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/BznVdSk/Malaysia.png",
+        "title": "Malaysian Airlines",
+        "rating": 3.8,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/tCb1PXc/american.png",
+        "title": "American Airlines",
+        "rating": 4.2,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/BznVdSk/Malaysia.png",
+        "title": "Malaysian Airlines",
+        "rating": 5.0,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/R9X7wCW/Emirates.png",
+        "title": "Emirates",
+        "rating": 4.7,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/vjGk2wv/Turkish-Airlines.png",
+        "title": "Turkish-Airlines",
+        "rating": 3.5,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/9VTTTT6/BBA.png",
+        "title": "Biman Bangladesh Airlines",
+        "rating": 4.9,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/vjGk2wv/Turkish-Airlines.png",
+        "title": "Turkish-Airlines",
+        "rating": 4.0,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/fpwkxD6/Singapore-Airlines.png",
+        "title": "Singapore-Airlines",
+        "rating": 4.3,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/tCb1PXc/american.png",
+        "title": "American Airlines",
+        "rating": 3.2,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/9VTTTT6/BBA.png",
+        "title": "Biman Bangladesh Airlines",
+        "rating": 4.6,
+        "review": "(783 Reviews)"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/R9X7wCW/Emirates.png",
+        "title": "Emirates",
+        "rating": 4.8,
+        "review": "(783 Reviews)"
+    }
+]
